@@ -1,0 +1,119 @@
+.tw-title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.tw-title {
+  display: flex;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.tw-svg {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+.tw-followCard {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 0.8rem;
+  justify-content: space-between;
+  background-color: rgba(39, 37, 37);
+  padding: 10px;
+  gap: 10px;
+  border-radius: 10px;
+  width: 350px;
+}
+
+.tw-cardBody {
+  display: flex;
+  align-items: center;
+}
+
+.tw-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tw-followCard-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 10px;
+}
+
+.tw-followCard-infoUserName {
+  font-weight: bold;
+}
+
+.tw-followCard-button {
+  cursor: pointer;
+  margin-left: 16px;
+  border: 0;
+  border-radius: 999px;
+  padding: 6px 16px;
+  font-weight: bold;
+  border: 1px solid #000;
+  transition: .3s ease background-color;
+}
+
+.tw-followCard-button:hover {
+  background-color: rgba(207, 207, 207, 0.685);
+  transition: all 0.2s ease-in-out;
+}
+
+.tw-followCard-text {
+  display: block;
+}
+
+.tw-followCard-button.is-following {
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+.tw-followButton.is--following {
+  background-color: rgba(255, 0, 0, 0);
+  border: #fff solid 1px;
+  color: #fff;
+}
+.tw-followCard-button.is--following {
+  border: 1px solid #bbb;
+  background: transparent;
+  color: #fff;
+  width: 140px;
+}
+
+.tw-followCard-button.is--following:hover {
+  background-color: rgba(255, 0, 0, 0.178);
+  color: red;
+  border: 1px solid red;
+  transition: .3s ease all;
+  opacity: 1;
+  height: 29px;
+
+}
+.tw-followCard-button.is--following:hover .tw-followCard-text {
+  display: none;
+}
+
+.tw-followCard-button.is--following:hover .tw-followCard-stopFollow {
+  display: block;
+}
+
+
+.tw-followCard-stopFollow {
+  display: none;
+}
+
+
+
